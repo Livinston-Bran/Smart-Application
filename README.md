@@ -1,7 +1,7 @@
 # Smart-Application
        
--In this project, you will embark on the creation of a comprehensive C# application designed to manage your smart home effortlessly. 
--The journey begins with an attractive splash screen that seamlessly transitions to a user-friendly login form. 
+- In this project, you will embark on the creation of a comprehensive C# application designed to manage your smart home effortlessly. 
+- The journey begins with an attractive splash screen that seamlessly transitions to a user-friendly login form. 
 
 ![logo](https://github.com/Livinston-Bran/Smart-Application/blob/main/img/pic1.PNG)
 ![logo](https://github.com/Livinston-Bran/Smart-Application/blob/main/img/pic2.PNG)

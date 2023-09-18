@@ -1,0 +1,10 @@
+Hello Zain
+Lights On
+Refridgerator On
+Air Conditioner On
+Temprature On
+Lights Off
+Refridgerator Off
+Air Conditioner Off
+Temprature Off
+EXIT

@@ -1,0 +1,26 @@
+G:\Projects\Smart Application\Smart Application\bin\Debug\Smart Application.exe.config
+G:\Projects\Smart Application\Smart Application\bin\Debug\Smart Application.exe
+G:\Projects\Smart Application\Smart Application\bin\Debug\Smart Application.pdb
+G:\Projects\Smart Application\Smart Application\bin\Debug\Guna.UI2.dll
+G:\Projects\Smart Application\Smart Application\obj\Debug\Smart Application.csproj.AssemblyReference.cache
+G:\Projects\Smart Application\Smart Application\obj\Debug\Smart Application.csproj.SuggestedBindingRedirects.cache
+G:\Projects\Smart Application\Smart Application\obj\Debug\Smart_Application.Properties.Resources.resources
+G:\Projects\Smart Application\Smart Application\obj\Debug\Smart Application.csproj.GenerateResource.cache
+G:\Projects\Smart Application\Smart Application\obj\Debug\Smart Application.csproj.CoreCompileInputs.cache
+G:\Projects\Smart Application\Smart Application\obj\Debug\Smart Application.csproj.CopyComplete
+G:\Projects\Smart Application\Smart Application\obj\Debug\Smart Application.exe
+G:\Projects\Smart Application\Smart Application\obj\Debug\Smart Application.pdb
+G:\Projects\Smart Application\Smart Application\obj\Debug\Smart_Application.User_Controls.uc_Dashboard.resources
+G:\Projects\Smart Application\Smart Application\obj\Debug\Smart_Application.Login.resources
+G:\Projects\Smart Application\Smart Application\obj\Debug\Smart_Application.User_Controls.uc_Controls.resources
+G:\Projects\Smart Application\Smart Application\obj\Debug\Smart_Application.User_Controls.uc_info.resources
+G:\Projects\Smart Application\Smart Application\obj\Debug\Smart_Application.User_Controls.uc_Signals.resources
+G:\Projects\Smart Application\Smart Application\obj\Debug\Smart_Application.dashboard.resources
+G:\Projects\Smart Application\Smart Application\obj\Debug\Smart_Application.User_Controls.uc_User.resources
+G:\Projects\Smart Application\Smart Application\obj\Debug\Smart_Application.User_Controls.uc_mainform.resources
+G:\Projects\Smart Application\Smart Application\obj\Debug\Smart_Application.Messege_Box.wifi.resources
+G:\Projects\Smart Application\Smart Application\obj\Debug\Smart_Application.Messege_Box.newdevice.resources
+G:\Projects\Smart Application\Smart Application\obj\Debug\Smart_Application.Messege_Box.activate.resources
+G:\Projects\Smart Application\Smart Application\obj\Debug\Smart_Application.Messege_Box.deactivate.resources
+G:\Projects\Smart Application\Smart Application\obj\Debug\Smart_Application.Assistant.resources
+G:\Projects\Smart Application\Smart Application\obj\Debug\Smart_Application.Messege_Box.alert.resources

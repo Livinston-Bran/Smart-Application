@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7512E5C2-7DC6-4C3B-8FDF-EB6004AD05DE}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Smart_Application</RootNamespace>
+    <AssemblyName>Smart Application</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Guna.UI2, Version=2.0.4.4, Culture=neutral, PublicKeyToken=8b9d14aa5142e261, processorArchitecture=MSIL">
+      <HintPath>packages\Guna.UI2.WinForms.2.0.4.4\lib\net48\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Speech" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assistant.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Assistant.Designer.cs">
+      <DependentUpon>Assistant.cs</DependentUpon>
+    </Compile>
+    <Compile Include="dashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dashboard.Designer.cs">
+      <DependentUpon>dashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Messege Box\activate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Messege Box\activate.Designer.cs">
+      <DependentUpon>activate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Messege Box\alert.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Messege Box\alert.Designer.cs">
+      <DependentUpon>alert.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Messege Box\deactivate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Messege Box\deactivate.Designer.cs">
+      <DependentUpon>deactivate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Messege Box\newdevice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Messege Box\newdevice.Designer.cs">
+      <DependentUpon>newdevice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Messege Box\wifi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Messege Box\wifi.Designer.cs">
+      <DependentUpon>wifi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="User Controls\uc_Controls.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User Controls\uc_Controls.Designer.cs">
+      <DependentUpon>uc_Controls.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User Controls\uc_Dashboard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User Controls\uc_Dashboard.Designer.cs">
+      <DependentUpon>uc_Dashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User Controls\uc_info.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User Controls\uc_info.Designer.cs">
+      <DependentUpon>uc_info.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User Controls\uc_mainform.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User Controls\uc_mainform.Designer.cs">
+      <DependentUpon>uc_mainform.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User Controls\uc_Signals.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User Controls\uc_Signals.Designer.cs">
+      <DependentUpon>uc_Signals.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User Controls\uc_User.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User Controls\uc_User.Designer.cs">
+      <DependentUpon>uc_User.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Assistant.resx">
+      <DependentUpon>Assistant.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dashboard.resx">
+      <DependentUpon>dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Messege Box\activate.resx">
+      <DependentUpon>activate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Messege Box\alert.resx">
+      <DependentUpon>alert.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Messege Box\deactivate.resx">
+      <DependentUpon>deactivate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Messege Box\newdevice.resx">
+      <DependentUpon>newdevice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Messege Box\wifi.resx">
+      <DependentUpon>wifi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="User Controls\uc_Controls.resx">
+      <DependentUpon>uc_Controls.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User Controls\uc_Dashboard.resx">
+      <DependentUpon>uc_Dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User Controls\uc_info.resx">
+      <DependentUpon>uc_info.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User Controls\uc_mainform.resx">
+      <DependentUpon>uc_mainform.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User Controls\uc_Signals.resx">
+      <DependentUpon>uc_Signals.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User Controls\uc_User.resx">
+      <DependentUpon>uc_User.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\wifi_disconnect.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\wifi_con.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
